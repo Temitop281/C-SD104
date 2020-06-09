@@ -8,6 +8,7 @@ namespace ConsoleApp_lesson1
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("This is a lesson");
+            Console.WriteLine("This is my second lesson");
         }
     }
 }
