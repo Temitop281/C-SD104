@@ -6,10 +6,8 @@ namespace ConsoleApplesson2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is lesson2");
-            Console.WriteLine("This is lesson2 change");
-            Console.WriteLine("This is the platform ");
-            Console.WriteLine("perform an operation");
+       
+            
         }
     }
 }
