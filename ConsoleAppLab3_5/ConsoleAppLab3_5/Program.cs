@@ -6,7 +6,7 @@ namespace ConsoleAppLab3_5
     {
         static void Main(string[] args)
         {
-            string blackListWord = "fire";
+            string blackListWord = "viagra";
             bool isSpam = false;
             string message = Console.ReadLine();
             if (message.Contains(blackListWord))
