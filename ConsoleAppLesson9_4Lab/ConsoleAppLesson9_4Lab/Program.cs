@@ -5,13 +5,16 @@ namespace ConsoleAppLesson9_4LAB
 {
     class Program
     {
-        private static readonly object mywriter;
         private static string string1;
         private static string string2;
+        private static object mywriter;
 
         static void Main(string[] args)
         {
-            
+            _ = new Header();
+            _ = new UnorderedList();
+            _ = new StringBuilder();
+
 
             string moreText = string1 + string2;
             Console.WriteLine(moreText);
@@ -44,12 +47,12 @@ namespace ConsoleAppLesson9_4LAB
             string dynamicHTML = Console.ReadLine();
 
             Console.WriteLine("Enter some text for your first item");
-            string headinghtml = Console.ReadLine();
+            _ = Console.ReadLine();
             Console.WriteLine("Enter some text for your second item");
-            string Ulhtml = Console.ReadLine();
-           
-            
-            
+            _ = Console.ReadLine();
+
+
+
 
             htmlText.Append(bodyOpen);
             htmlText.Append(pOpen);
