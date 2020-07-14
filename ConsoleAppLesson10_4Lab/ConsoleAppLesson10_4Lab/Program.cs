@@ -10,14 +10,14 @@ namespace ConsoleAppLesson10_4Lab
     {
         void Play();
     }
-
 }
-        
 
-    
 
-    
-    
+
+
+
+
+
 
 
 
